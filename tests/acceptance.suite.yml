@@ -1,0 +1,25 @@
+# Codeception Test Suite Configuration
+#
+# Suite for acceptance tests.
+# Perform tests in browser using the WebDriver or PhpBrowser.
+# If you need both WebDriver and PHPBrowser tests - create a separate suite.
+
+class_name: AcceptanceTester
+modules:
+   enabled:
+      - WebDriver:
+         url: 'http://crossbrowsertesting.github.io/'
+         host: 'you@yourdomain.com:yourauthkey@hub.crossbrowsertesting.com'
+         port: 80
+         browser: chrome
+         capabilities:
+          name: 'Codeception Example'
+          build: '1.0'
+          browser_api_name: 'Chrome54'
+          os_api_name: 'Win10'
+          record_video: 'true'
+          record_network: 'true'
+
+
+
+          
