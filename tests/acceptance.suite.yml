@@ -15,7 +15,7 @@ modules:
          capabilities:
           name: 'Codeception Example'
           build: '1.0'
-          browser_api_name: 'Chrome54'
+          browser_api_name: 'chrome-latest'                 # request the latest version of chrome
           os_api_name: 'Win10'
           record_video: 'true'
           record_network: 'true'
