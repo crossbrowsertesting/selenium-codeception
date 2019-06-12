@@ -18,8 +18,4 @@ modules:
           browserName: 'Chrome'                 # request the latest version of chrome
           platform: 'Windows 10'                # To specify version, add version: 'desired version'
           record_video: 'true'
-          record_network: 'true'
-
-
-
-          
+          record_network: 'false'
